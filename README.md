@@ -74,3 +74,10 @@ Create a kubernetes manifest for a pod which will containa ToDo app container:
 11. Run command `kubectl get all,cm,secret,ing -A` and put the output in a file called `output.log` in a root of the repository
 12. `README.md` should have instructuions on how to validate the changes
 13. Create PR with your changes and attach it for validation on a platform.
+
+
+    ## To validate our solution open bootstraps.sh and after cluster spin up open link
+
+        http://localhost:30007/
+
+    You must see our web app todoapp
