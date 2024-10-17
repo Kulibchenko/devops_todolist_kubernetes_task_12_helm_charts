@@ -76,7 +76,7 @@ Create a kubernetes manifest for a pod which will containa ToDo app container:
 13. Create PR with your changes and attach it for validation on a platform.
 
 
-    ## To validate our solution open bootstraps.sh and after cluster spin up open link
+    ## To validate our solution run bootstraps.sh and after cluster spin up open link
 
         http://localhost:30007/
 
