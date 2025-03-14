@@ -1,9 +1,7 @@
-# Django ToDo list
+# Writing Helm Charts
+    
+    This project involves converting a Dockerized To-Do application into a Helm chart for deployment on a Kubernetes cluster running on Kind. The Helm chart consists of two sub-charts: todoapp and mysql, ensuring modular and scalable deployment. Configurations such as namespace, secrets, resource limits, rolling updates, node affinity, and persistent storage are managed via values.yaml. A bootstrap.sh script automates cluster setup, node tainting, and Helm chart deployment. Dependencies are explicitly defined, ensuring the todoapp waits for mysql to be ready. 
 
-This is a todo list web application with basic features of most web apps, i.e., accounts/login, API, and interactive UI. To do this task, you will need:
-
-- CSS | [Skeleton](http://getskeleton.com/)
-- JS  | [jQuery](https://jquery.com/)
 
 ## Explore
 
